@@ -1,0 +1,70 @@
+Position: SharePoint Developer
+
+Experience: 5+ Years
+Location: [Location]
+Employment Type: Full-Time
+
+Job Summary
+
+We are seeking an experienced SharePoint Developer with 5+ years of hands-on experience in SharePoint Online, SPFx (SharePoint Framework), Power Apps, Power Automate, and JavaScript-based development. The ideal candidate should have strong expertise in designing, developing, and maintaining modern SharePoint solutions, business process automation, and custom applications within the Microsoft 365 ecosystem.
+
+Key Responsibilities
+Design, develop, and maintain SharePoint Online solutions using SharePoint Framework (SPFx).
+Build responsive and reusable SPFx web parts and extensions using React, TypeScript, JavaScript, HTML, and CSS.
+Develop and customize Power Apps applications to meet business requirements.
+Create and maintain Power Automate workflows for business process automation and integration.
+Configure and manage SharePoint sites, lists, libraries, permissions, content types, and metadata.
+Integrate SharePoint solutions with Microsoft Graph API, REST APIs, and third-party systems.
+Develop custom forms, dashboards, and reporting solutions within Microsoft 365.
+Collaborate with business stakeholders to gather requirements and translate them into technical solutions.
+Troubleshoot and resolve issues related to SharePoint, Power Platform, and custom applications.
+Follow best practices for security, governance, performance optimization, and solution architecture.
+Participate in code reviews, testing, deployment, and production support activities.
+Prepare technical documentation, deployment guides, and user manuals.
+Required Skills
+SharePoint
+Strong experience with SharePoint Online.
+Expertise in site collections, lists, libraries, permissions, content types, and metadata management.
+Experience with SharePoint REST API and Microsoft Graph API.
+Knowledge of SharePoint governance, security, and best practices.
+SPFx Development
+Strong hands-on experience with SharePoint Framework (SPFx).
+Experience building modern web parts and extensions.
+Proficiency in React, TypeScript, JavaScript, HTML5, and CSS3.
+Experience with PnP JS and Fluent UI.
+Power Platform
+Strong experience in Power Apps (Canvas and Model-Driven Apps preferred).
+Experience developing Power Automate cloud flows and approval workflows.
+Knowledge of Dataverse and Power Platform integrations.
+Programming Skills
+JavaScript (ES6+)
+TypeScript
+React JS
+HTML5
+CSS3
+REST APIs
+JSON
+Additional Skills
+Experience with Azure AD authentication and Microsoft 365 ecosystem.
+Knowledge of Azure Functions, Logic Apps, or Azure services is a plus.
+Familiarity with CI/CD pipelines and DevOps practices.
+Understanding of Agile/Scrum methodologies.
+Preferred Qualifications
+Bachelor's degree in Computer Science, Information Technology, or a related field.
+Microsoft certifications related to SharePoint, Power Platform, or Microsoft 365 are preferred.
+Experience with enterprise-scale SharePoint implementations.
+Strong problem-solving and communication skills.
+Nice to Have
+Experience with Microsoft Teams app development.
+Experience with Viva Connections and Adaptive Card Extensions.
+Experience with Azure services and serverless development.
+Knowledge of Power BI integration with SharePoint and Power Platform.
+Expected Outcomes
+Deliver scalable and maintainable SharePoint solutions.
+Automate business processes using Power Automate.
+Develop user-friendly business applications using Power Apps.
+Enhance productivity and collaboration across Microsoft 365 platforms.
+Ensure high-quality, secure, and performant solutions.
+Keywords
+
+SharePoint Online, SPFx, React, TypeScript, JavaScript, Power Apps, Power Automate, Microsoft 365, REST API, Graph API, PnP JS, Azure AD, Dataverse, Fluent UI, Teams Integration, Power Platform.

@@ -1,0 +1,23 @@
+# Secrets and Environment Variables
+.env
+*.env
+env/
+venv/
+.venv/
+
+# Databases and Local Storage
+*.db
+*.sqlite3
+chroma_db/
+chroma_data/
+__pycache__/
+*.pyc
+
+# Frontend Dependencies & Builds
+node_modules/
+dist/
+.eslintcache
+
+# OS specific files
+.DS_Store
+Thumbs.db
