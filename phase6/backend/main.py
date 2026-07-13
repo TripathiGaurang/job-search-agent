@@ -106,7 +106,12 @@ async def search_jobs(
     )
 
     if scored_jobs:
-        send_job_digest(email, scored_jobs, query, location)
+        try:
+            send_job_digest(email, scored_jobs, query, location)
+            print("   ✅ Email digest dispatched successfully.")
+        except Exception as email_err:
+            # Captures the network block so it doesn't crash the entire API payload return
+            print(f"   ⚠️ Email dispatch skipped or network unreachable: {email_err}")
 
     ranked = sorted(scored_jobs, key=lambda x: x.get("score", 0), reverse=True)
 
