@@ -23,14 +23,17 @@ from rag.vector_store import find_similar_jobs, build_job_text
 
 app = FastAPI(title="Job Search Agent API")
 
+# Change the allow_origins array to include your Vercel URL
 app.add_middleware(
     CORSMiddleware,
-    allow_origins     = ["http://localhost:5173"],  # Vite dev server
-    allow_credentials = True,
-    allow_methods     = ["*"],
-    allow_headers     = ["*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://job-search-agent-seven.vercel.app"  # <-- Paste your actual live Vercel frontend URL here
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
-
 UPLOAD_DIR = Path(__file__).parent / "uploads"
 UPLOAD_DIR.mkdir(exist_ok=True)
 
