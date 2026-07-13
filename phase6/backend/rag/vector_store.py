@@ -5,15 +5,12 @@ sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 from rag.embedder import get_embedding
 
-# Detect if the app is running in the cloud on Koyeb
-IS_KOYEB = os.getenv("KOYEB_PUBLIC_DOMAIN") is not None
+IS_RENDER = os.getenv("RENDER") is not None
 
-if IS_KOYEB:
-    # Use the writeable temporary path inside the cloud container
-    DB_PATH = "/tmp/jobs.db"
+if IS_RENDER:
+    CHROMA_PATH = "/tmp/chroma_db"
 else:
-    # Keep your exact current local setup for running on your computer
-    DB_PATH = os.path.join(os.path.dirname(__file__), "jobs.db")
+    CHROMA_PATH = os.path.join(os.path.dirname(__file__), "chroma_db")
 
 
 def build_job_text(job: dict) -> str:
