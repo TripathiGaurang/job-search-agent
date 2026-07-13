@@ -28,7 +28,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://job-search-agent-seven.vercel.app"  # <-- Paste your actual live Vercel frontend URL here
+        "https://job-search-agent-delta.vercel.app/"  # <-- Paste your actual live Vercel frontend URL here
     ],
     allow_credentials=True,
     allow_methods=["*"],
