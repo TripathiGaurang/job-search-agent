@@ -1,7 +1,15 @@
 import sqlite3
 import os
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "jobs.db")
+# Detect if the app is running in the cloud on Koyeb
+IS_KOYEB = os.getenv("KOYEB_PUBLIC_DOMAIN") is not None
+
+if IS_KOYEB:
+    # Use the writeable temporary path inside the cloud container
+    DB_PATH = "/tmp/jobs.db"
+else:
+    # Keep your exact current local setup for running on your computer
+    DB_PATH = os.path.join(os.path.dirname(__file__), "jobs.db")
 
 def get_connection():
     return sqlite3.connect(DB_PATH)
