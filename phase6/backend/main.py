@@ -26,7 +26,7 @@ app = FastAPI(title="Job Search Agent API")
 # Change the allow_origins array to include your Vercel URL
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origin_regex=r"https://.*\.vercel\.app|http://localhost:\d+",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
