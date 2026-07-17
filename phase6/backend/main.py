@@ -26,10 +26,7 @@ app = FastAPI(title="Job Search Agent API")
 # Change the allow_origins array to include your Vercel URL
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "https://job-search-agent-delta.vercel.app/"  # <-- Paste your actual live Vercel frontend URL here
-    ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
